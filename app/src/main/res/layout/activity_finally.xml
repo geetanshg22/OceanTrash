@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@drawable/login_backgroung">
+
+    <TextView
+        android:id="@+id/latitudeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Something"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_margin="24dp"/>
+
+    <TextView
+        android:id="@+id/longitudeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Something"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_margin="24dp"/>
+
+    <TextView
+        android:id="@+id/betweenCountries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Something"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_margin="24dp"/>
+
+    <TextView
+        android:id="@+id/density"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Something"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:layout_margin="24dp"/>
+
+    <Button
+        android:id="@+id/gotomap"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ripple_button"
+        android:text="Locate On Map"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>

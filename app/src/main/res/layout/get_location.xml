@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_backgroung">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Current Location and City Name"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:textColor="#FFFFFF"/>
+    <LinearLayout
+        android:id="@+id/layButtonH"
+        android:layout_marginTop="70dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_width="match_parent">
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/ripple_button"
+            android:textSize="17sp"
+            android:textColor="#FFFFFF"
+            android:text="Get Location"
+            android:id="@+id/btnLocation"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layloadingH"
+        android:layout_marginTop="70dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:id="@+id/progressBar1"
+            android:layout_height="wrap_content"></ProgressBar>
+    </LinearLayout>
+</LinearLayout>
+

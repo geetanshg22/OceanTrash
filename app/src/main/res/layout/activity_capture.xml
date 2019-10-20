@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_backgroung">
+    <Button
+        android:id="@+id/currLocation"
+        android:text="Current Location"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/ripple_button"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="OR"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/ImageNameEditText"
+        android:hint="Enter City Name"
+        android:layout_marginTop="27dp"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="17sp"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="370dp"
+        android:background="@drawable/ic_launcher_foreground"/>
+
+    <LinearLayout
+        android:id="@+id/layout_button"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <Button
+            android:id="@+id/btnChoose"
+            android:text="Choose"
+            android:layout_width="140dp"
+            android:background="@drawable/ripple_button"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:text="Upload"
+            android:layout_width="140dp"
+            android:background="@drawable/ripple_button"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/allUpload"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_button"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="See All Uploads" />
+
+</LinearLayout>
